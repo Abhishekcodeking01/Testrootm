@@ -1,59 +1,71 @@
+<!-- RootMobiles Website - Multi-page UI inspired by Instagram Highlights Style -->
+
+<!-- index.html - Homepage -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>RootMobiles WhatsApp Growth</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f7f9fc;
-      margin: 0;
-      padding: 2rem;
-      color: #333;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    }
-    h1 {
-      color: #2c3e50;
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-    ul {
-      list-style: none;
-      padding-left: 1rem;
-    }
-    ul li::before {
-      content: "🚀 ";
-    }
-    .footer {
-      text-align: center;
-      margin-top: 2rem;
-      font-size: 0.9rem;
-      color: #777;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RootMobiles | Sales & Automation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <h1>🚀 RootMobiles: Boosting Sales & Operations via WhatsApp</h1>
-    <p>We help electronics shops & mobile retailers like you use WhatsApp to:</p>
-    <ul>
-      <li>Send 1000s of offer messages every week</li>
-      <li>Remind customers of EMI dues & payment dates</li>
-      <li>Push new stock arrivals with photos</li>
-      <li>Handle support & sales from one WhatsApp screen</li>
-    </ul>
-    <p>✨ We combine tech automation + consulting to make sure you get results!</p>
-    <p style="text-align:center;"><strong>Let's chat on WhatsApp to see a demo 👇</strong></p>
-    <p style="text-align:center;"><a href="https://wa.me/919999999999">Click here to WhatsApp us</a></p>
-    <div class="footer">© 2025 RootMobiles Automation</div>
-  </div>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">RootMobiles</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  
+  <section class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h2>Your Trusted Mobile Store in Coimbatore</h2>
+        <p>Accelerating Sales. Optimizing Operations. Powered by WhatsApp automation & consulting.</p>
+        <a href="contact.html" class="cta-button">Chat on WhatsApp</a>
+      </div>
+      <div class="hero-img">
+        <img src="images/storefront.png" alt="RootMobiles Storefront" />
+      </div>
+    </div>
+  </section>
+
+  <section class="highlights">
+    <div class="container">
+      <h3 class="section-title">🔥 Trending Deals</h3>
+      <div class="deal-grid">
+        <div class="deal-card">
+          <img src="images/iphone16.png" alt="iPhone 16">
+          <h4>iPhone 16 Pro Max</h4>
+          <p>Natural Titanium | AppleCare till 2027</p>
+          <span class="price">₹110,999</span>
+        </div>
+        <div class="deal-card">
+          <img src="images/asus-tuf.png" alt="ASUS TUF">
+          <h4>ASUS TUF F15</h4>
+          <p>i5, RTX 2050 | Warranty till 2025</p>
+          <span class="price">₹46,490</span>
+        </div>
+        <div class="deal-card">
+          <img src="images/ipad11.png" alt="iPad">
+          <h4>iPad 11th Gen</h4>
+          <p>Sealed | 256GB | WiFi</p>
+          <span class="price">₹42,990</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 RootMobiles. Powered by WhatsApp Automation & Tech Consulting.</p>
+    </div>
+  </footer>
 </body>
 </html>
